@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <style type="text/css">
+
+    </style>
+</head>
+<body>
+
+</body>
+</html>
+<script type="text/javascript">
+    //建立定时器
+     var end = setInterval(function(){
+        console.log(111);
+     },1000);
+
+     //打印出了定时器所对应的值
+     console.log(end);
+
+     //这里停止了定时器
+     for(var i=1;i<=end;i++){
+        clearInterval(i);
+     }
+
+
+</script>
